@@ -10,7 +10,7 @@ export default function Home() {
     const formData = new FormData(event.target);
 
     try {
-      const response = await fetch("https://hook.eu2.make.com/37e6fgbm3wo42fbqm75no80ihll78r2t", {
+      const response = await fetch("Ton lien WebHook", {
         method: "POST",
         body: formData,
       });
